@@ -1,7 +1,7 @@
 import React from 'react';
 import bg from './../img/bg1.jpg';
 import Header from './Header';
-
+import Character from './Character';
 
 function App(){
   var containerStyle = {
@@ -18,6 +18,7 @@ function App(){
         `}</style>
       <div className="container">
         <Header/>
+        <Character/>
       </div>
     </div>
 
